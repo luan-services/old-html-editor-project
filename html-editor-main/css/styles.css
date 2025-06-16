@@ -1,0 +1,32 @@
+/* outline remove a borda da caixa */
+
+.content-box {
+    outline: 0px solid transparent;
+    border: 1px solid rgb(230, 230, 230);
+    overflow-y: auto;
+    height: 320px;
+}
+
+.result-box {
+    border: 1px solid rgb(230, 230, 230);
+    overflow-y: auto;
+    height: 320px;
+}
+
+/* botão de estilos */
+
+.btn-estilo {
+    margin: 2px;
+    color: rgb(0, 78, 0);
+    background-color: rgb(227, 255, 227);
+    border: 1px solid rgb(123, 202, 123);
+    border-radius: 5px;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 5px 0 hsla(0, 0%, 0%, 0.1);
+}
+
+.btn-estilo:active {
+    color: green;
+    filter: brightness(0.8);
+    box-shadow: none;
+}
+
